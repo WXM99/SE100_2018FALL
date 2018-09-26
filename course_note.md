@@ -1,4 +1,4 @@
-# Assignments
+# Assignments And Guideline For the Courese.
 
 ## Week 2. Introduction
 
