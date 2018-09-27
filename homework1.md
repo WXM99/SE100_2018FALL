@@ -96,15 +96,77 @@ Morever, except for 'id', the way of bind can also call up data like:
 
 ### 2.3 Logic control
 
+1. Conditionals statement assembling in HTML label reacts and changes the page according to the data in its counterpart vue instance. For example, 
+
+   the HTML file:
+
+   ```html
+   <div id="condition"> 
+      <span v-if="seen">seen is ture</span>
+   </div>
+   ```
+
+   the Javascript file:
+
+   ```javascript
+   var condition = new Vue({
+     el: '#condition',
+     data: { 
+     	seen: true  
+     }
+   })
+   ```
+
+   shown in webpage:
+
+   > seen is ture
+
+   In the console. enter ```condition.seen = false``` , then 		the text will dissmiss.
+
+2.  Loops execute just like conditionals, for example, the ```v-for``` instruction shown in HTML:
+
+   ```html
+   <div id="toDoList">
+     <ol>
+       <li v-for="todo in events">
+         {{ todo.text }}
+       </li>
+     </ol>
+   </div>
+   ```
+
+   Javascript file:
+
+   ```javascript
+   var toDoList = new Vue({
+     el: '#toDoList',
+     data: {
+       events: [
+         { text: 'Learn JavaScript' },
+         { text: 'Learn Vue' },
+         { text: 'Build something awesome' }
+       ]
+     }
+   })
+   ```
+
+   shown in webpage:
+
+   > Learn JavaScript
+   >
+   > Learn Vue
+   >
+   > Build something awesome
+
+   It can also react when sent console at ```toDoList.events.push({text: 'Newly added'})``` , the text "Newly added" will show up in the page.
+
 ### 2.4 React dynamically 
 
 ### 2.5 Lifetime of an Vue instance
 
 ![lifecycle](./images/lifecycle.png)
 
-## 3. Inner realization of Vue 
+## 3. Tools in Vue
 
-## 4. Tools in Vue
-
-## 5. Largescale develop in Vue
+## 4. Largescale develop in Vue
 
