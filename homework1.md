@@ -84,7 +84,21 @@ What is show on the webpage is as follow:
 
 > Hello Vue!
 
-### 2.3 Lifetime of an Vue instance
+This is a simple vue instance and shown its counterpart components on HTML. Diffirent from a simple string in HTML. this data  ```app.message``` has been bound with DOM ```<div id = ''app''>```. Every components in Vue is **reactive** and can be modified **dynamically**.
+
+Morever, except for 'id', the way of bind can also call up data like:
+
+```HTML
+<span v-bind:title="message">
+```
+
+```v-bind``` instruction ask for the component<span> react according to the data message.
+
+### 2.3 Logic control
+
+### 2.4 React dynamically 
+
+### 2.5 Lifetime of an Vue instance
 
 ![lifecycle](./images/lifecycle.png)
 
