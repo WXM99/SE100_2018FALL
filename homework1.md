@@ -171,7 +171,17 @@ To realize reactivity, Vue provides the ```v-on``` method to catch and bind with
 </div>
 ```
 
-
+var change = new Vue({
+  el: '#change',
+  data: {
+    message: 'Hello Vue!'
+  },
+  methods: {
+    changeMessage: function () {
+      this.message = 'Message changed!'
+    }
+  }
+})
 
 ### 2.5 Lifetime of an Vue instance
 
