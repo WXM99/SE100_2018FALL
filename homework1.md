@@ -162,7 +162,7 @@ Morever, except for 'id', the way of bind can also call up data like:
 
 ### 2.4 React dynamically 
 
-To realize reactivity, Vue provides the ```v-on``` method to catch and bind with events. It's like:
+To realize reactivity, Vue provides the ```v-on``` instruction to catch and bind with events. It's like:
 
 ```HTML
 <div id="change">
@@ -171,6 +171,7 @@ To realize reactivity, Vue provides the ```v-on``` method to catch and bind with
 </div>
 ```
 
+```javascript
 var change = new Vue({
   el: '#change',
   data: {
@@ -182,10 +183,15 @@ var change = new Vue({
     }
   }
 })
+```
 
-### 2.5 Lifetime of an Vue instance
+When clicked, the button calls up the method ```changeMessage``` in the vue instance ```change``` and change its data ```message``` into 'Message changed!'.
 
-![lifecycle](./images/lifecycle.png)
+It's a feature of Vue that when changing the data in the instance, the code has nothing to do with DOM widgets. That's beacuse all those operations are executed by Vue itself. The only thing our code concerns is the logic when the page runs.
+
+### 2.5 Two-way binding
+
+The instruction ```v-model``` 
 
 ## 3. Tools in Vue
 
