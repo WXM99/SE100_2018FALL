@@ -162,6 +162,17 @@ Morever, except for 'id', the way of bind can also call up data like:
 
 ### 2.4 React dynamically 
 
+To realize reactivity, Vue provides the ```v-on``` method to catch and bind with events. It's like:
+
+```HTML
+<div id="change">
+  <p>{{ message }}</p>
+  <button v-on:click="changeMessage">Change Above</button>
+</div>
+```
+
+
+
 ### 2.5 Lifetime of an Vue instance
 
 ![lifecycle](./images/lifecycle.png)
