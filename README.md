@@ -1,4 +1,4 @@
-# Assignments And Guideline For the Courese.
+# Assignments And Outline For the Courese.
 
 ## Week 2. Introduction
 
@@ -33,5 +33,5 @@
 
 ## Week 14. Review III
 
-## Final Project  
+## Final Project 
 
