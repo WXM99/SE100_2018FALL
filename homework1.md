@@ -207,5 +207,8 @@ and etc.
 
 ## 3. Tools in Vue
 
-## 4. Largescale develop in Vue
+### 3.1 Vue CLI 3
 
+### 3.3 Sentry
+
+### 3.2 Karma
