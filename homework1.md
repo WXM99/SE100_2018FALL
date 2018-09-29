@@ -212,3 +212,8 @@ and etc.
 ### 3.3 Sentry
 
 ### 3.2 Karma
+
+## 4. Pros and Cons of Vue
+
+## 5. Comparison to raw JS
+

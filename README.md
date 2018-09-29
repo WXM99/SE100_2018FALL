@@ -5,8 +5,8 @@
 - [x] Learn to use frames in front-end development, as  ```React``` and ```Vue```.
 - [x] Find pros and cons of frames above, comparing them with the the technology stack used before.
 - [x] Prepare a Git repo (itself) and upload markdown file in time.
-- [x] Make markdown totally and make it decent.
-- DDL: Oct. 1st 2019. 
+- [x] Make markdown file decent.
+- DDL: Oct. 1st 2018. 
 - Submit: address of this repo to sjtuseproj@163.com.
 
 ## Week 3. Build Environment 
