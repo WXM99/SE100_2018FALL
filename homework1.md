@@ -215,5 +215,9 @@ and etc.
 
 ## 4. Pros and Cons of Vue
 
+
+
 ## 5. Comparison to raw JS
+
+
 
