@@ -191,7 +191,9 @@ It's a feature of Vue that when changing the data in the instance, the code has 
 
 ### 2.5 Two-way binding
 
-The instruction ```v-model``` 
+The instruction ```v-model``` is able to create a **two-way binding** on <input>, <select> and <textarea> and anyother reactive HTML elements. 
+
+![bindbin](./images/bindBin.png)
 
 ## 3. Tools in Vue
 
