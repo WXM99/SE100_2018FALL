@@ -121,7 +121,7 @@ Morever, except for 'id', the way of bind can also call up data like:
 
    > seen is ture
 
-   In the console. enter ```condition.seen = false``` , then 		the text will dissmiss.
+   In the console. enter ```condition.seen = false``` , then the text will dissmiss.
 
 2.  Loops execute just like conditionals, for example, the ```v-for``` instruction shown in HTML:
 
@@ -153,7 +153,6 @@ Morever, except for 'id', the way of bind can also call up data like:
    shown in webpage:
 
    > Learn JavaScript
-   >
    > Learn Vue
    >
    > Build something awesome
@@ -194,6 +193,8 @@ It's a feature of Vue that when changing the data in the instance, the code has 
 The instruction ```v-model``` is able to create a **two-way binding** on <input>, <select> and <textarea> and anyother reactive HTML elements. 
 
 ![bindbin](./images/bindBin.png)
+
+```v-model``` can adapt a right way to update elements according to the types and datas. Intrensically 
 
 ## 3. Tools in Vue
 
