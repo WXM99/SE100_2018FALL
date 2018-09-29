@@ -153,6 +153,7 @@ Morever, except for 'id', the way of bind can also call up data like:
    shown in webpage:
 
    > Learn JavaScript
+   >
    > Learn Vue
    >
    > Build something awesome
@@ -194,7 +195,15 @@ The instruction ```v-model``` is able to create a **two-way binding** on <input>
 
 ![bindbin](./images/bindBin.png)
 
-```v-model``` can adapt a right way to update elements according to the types and datas. Intrensically 
+```v-model``` can adapt a right way to update elements according to the types and datas. Essentially, those models finish the work of updating datas on user input events (from letf to right) and in turn, it output expected datas to DOMs and make them shown (from right to left).
+
+Models in vue including
+
+- #Text:  ```<input v-model='massage'>```
+- #Checkbox:  ```<input type="checkbox" v-model="checked">```
+- #Select:  ```<select v-model="selected">```
+
+and etc.
 
 ## 3. Tools in Vue
 
