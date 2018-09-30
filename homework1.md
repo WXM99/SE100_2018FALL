@@ -205,7 +205,7 @@ Models in vue including
 
 and etc. 
 
-## 3. Tools in Vue
+3. Tools in Vue
 
 ### 3.1 Vue CLI 3
 
@@ -284,8 +284,6 @@ describe('MyComponent', () => {
 - Progressive:
 
   Vue organizes its components in groups. When some components are common for diffrent pages, Vue groups them up and share the them in pages to avoid re-render. Moreover, progressive also means that vue can be a part of present project in server to add more reactive events.
-
-  
 
 ### Cons:
 
