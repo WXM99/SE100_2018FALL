@@ -203,7 +203,7 @@ Models in vue including
 - #Checkbox:  ```<input type="checkbox" v-model="checked">```
 - #Select:  ```<select v-model="selected">```
 
-and etc.
+and etc. 
 
 ## 3. Tools in Vue
 
