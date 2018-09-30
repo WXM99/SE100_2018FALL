@@ -205,7 +205,7 @@ Models in vue including
 
 and etc. 
 
-3. Tools in Vue
+## 3. Tools in Vue
 
 ### 3.1 Vue CLI 3
 
@@ -220,7 +220,7 @@ $ vue create my-project-name
 
 The first instruction installed  Vue CLI through rpm and the second one created a veu project in present directory.
 
-### 3.3 Sentry
+### 3.2 Sentry
 
 **Sentry** is an error tracking that helps developers monitor and fix crashes in real time. To use it, we should grab the Sentry JavaScript SDK:
 
@@ -231,7 +231,7 @@ The first instruction installed  Vue CLI through rpm and the second one created 
 
 Sentry automatically captures errors thrown by Vue’s `errorHandler`.  It Improves workflow with a full view of releases and detect in which version a bug first appeared, merge duplicates, and know if things regress in a future release.
 
-### 3.2 Testing tools
+### 3.3 Testing tools
 
 As it's mentioned in the ppt, *intro to javascript*, **Karma** and **Jasmine** are test runners based on node.js. Surely it can support the test project of Vue. **Assertion libs** are also various. 
 
