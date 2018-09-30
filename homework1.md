@@ -53,7 +53,7 @@ Vue components also handle with datas and reactions. which is called **data boun
 
    When building large scale applications with Vue, npm installation pairs nicely with module bundlers such as Webpack or Browserify. Vue also provides accompanying tools for authoring Single File Components.
 
-   ```
+   ```shell
    $ npm install vue
    ```
 
@@ -209,13 +209,33 @@ and etc.
 
 ### 3.1 Vue CLI 3
 
+If the situation occurs that a largescale Vue project shall be created, it would be a bit complicated to organize the whole project and write files one by one. **Vue CLI 3** uses TypeSctipt to create a new project framework of Vue, making large-scale development clean and standardized.
+
+The way of creating:
+
+```shell
+$ npm install --global @vue/cli
+$ vue create my-project-name
+```
+
+The first instruction installed  Vue CLI through rpm and the second one created a veu project in present directory.
+
 ### 3.3 Sentry
+
+**Sentry** is an error tracking that helps developers monitor and fix crashes in real time. To use it, we should grab the Sentry JavaScript SDK:
+
+```HTML
+<script src="https://cdn.ravenjs.com/<VERSION>/vue/raven.min.js">
+</script>
+```
+
+Sentry automatically captures errors thrown by Vue’s `errorHandler`.  It Improves workflow with a full view of releases and detect in which version a bug first appeared, merge duplicates, and know if things regress in a future release.
 
 ### 3.2 Testing tools
 
-As it's mentioned in the ppt, *intro to javascript*, Karma and Jasmine are test runners based on node.js. Surely it can support the test project of Vue. Assertion libs are also various. 
+As it's mentioned in the ppt, *intro to javascript*, **Karma** and **Jasmine** are test runners based on node.js. Surely it can support the test project of Vue. **Assertion libs** are also various. 
 
-Test work on vue shall import Vue.js to introduce methods in Vue components and a proper assertion lib. And then, some common  assertion statements can be added to the test. An example of javascript file ``` ./myVue.js ``` and its test project ```/myVue.test.js```.
+Test work on vue shall **import Vue.js** to introduce methods in Vue components and a proper assertion lib. And then, some common  assertion statements can be added to the test. An example of javascript file ``` ./myVue.js ``` and its test project ```/myVue.test.js```.
 
 ```javascript
 //  myVue.js
@@ -249,11 +269,30 @@ describe('MyComponent', () => {
 })
 ```
 
+## 4. Comparison to raw JS
 
+### Pros: 
 
-## 4. Pros and Cons of Vue
+- Abstrsction:
 
-## 5. Comparison to raw JS
+  Vue perfectly encapsulates method and data in Raw js and provides a more easy and direct way to manipulate the page. The conception of Vue model matches well with DOM in HTML, making it logically smooth for users when developing front-end.
 
+- Data bind:
 
+  Vue listens input and events from DOM and bind datas with its models in script, and in turn, updating the page accoding to these changes. This kind of Two-way bind makes the reaction of webpages a convenient and elegant way. 
 
+- Progressive:
+
+  Vue organizes its components in groups. When some components are common for diffrent pages, Vue groups them up and share the them in pages to avoid re-render. Moreover, progressive also means that vue can be a part of present project in server to add more reactive events.
+
+  
+
+### Cons:
+
+- Maintain cost:
+
+  The flexibility of Vue allows more than one way to realize the same demand. It easily causes the problems in maintain a project for diffrent code styles. Especially in multiple logic branches, vue can make the code clean but varies so much in code style.
+
+- Debugging:
+
+  Vue's inner realization is somehow like a black box that helps user do things elegantly and easily. But when bug ocurrs on rending template (no logical errors, Sentry and testing can avoid this kind of bugs), it would be extremely complicated and annoying to find bugs. For all the rending work is taken over by Vue's inner realization.
