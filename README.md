@@ -198,7 +198,9 @@ The instruction ```v-model``` is able to create a **two-way binding** on <input>
 
 ```v-model``` can adapt a right way to update elements according to the types and datas. Essentially, those models finish the work of updating datas on user input events (from letf to right) and in turn, it output expected datas to DOMs and make them shown (from right to left).
 
-Models in vue including
+
+
+Models in vue includes: 
 
 - Text:  ```<input v-model='massage'>```
 - Checkbox:  ```<input type="checkbox" v-model="checked">```
