@@ -196,7 +196,9 @@ The instruction ```v-model``` is able to create a **two-way binding** on <input>
 
 ![bindbin](./images/bindBin.png)
 
-```v-model``` can adapt a right way to update elements according to the types and datas. Essentially, those models finish the work of updating datas on user input events (from letf to right) and in turn, it output expected datas to DOMs and make them shown (from right to left).
+
+
+```v-model``` can adapt a right way to update elements according to the types and datas. Essentially, those models finish the work of updating datas on user input events (from letf to right) and in turn, it output expected datas to DOMs and make them shown (from right to left) .
 
 
 
@@ -297,3 +299,4 @@ describe('MyComponent', () => {
 - Debugging:
 
   Vue's inner realization is somehow like a black box that helps user do things elegantly and easily. But when bug ocurrs on rending template (no logical errors, Sentry and testing can avoid this kind of bugs), it would be extremely complicated and annoying to find bugs. For all the rending work is taken over by Vue's inner realization.
+
