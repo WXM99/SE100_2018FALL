@@ -30,7 +30,7 @@ The core concepton of Vue is its **reusable components**.
 
 In the perspective of Vue, the front-end page could be seen as an **assembly of a group of vue instances**, and each one contains its own HTML, CSS and Javascript. All those vue components render the anywhere in the piece of webpage.
 
-![componentsStruct](/Users/Miao/Documents/GitHub/SE100_2018FALL/images/componentsStruct.jpg)
+![componentsStruct](./images/componentsStruct.jpg)
 
 Vue components also handle with datas and reactions. which is called **data bound**. To realize this, vue components store datas as members and react with input and display datas in the page by the same lable in HTML(''id'') and script(''el'').
 
@@ -193,7 +193,7 @@ It's a feature of Vue that when changing the data in the instance, the code has 
 
 The instruction ```v-model``` is able to create a **two-way binding** on ```<input>```, ```<select>``` and ``` <textarea> ``` and anyother reactive HTML elements. 
 
-![bindbin](/Users/Miao/Documents/GitHub/SE100_2018FALL/images/bindBin.png)
+![bindbin](images/bindBin.png)
 
 
 
