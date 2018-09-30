@@ -211,11 +211,47 @@ and etc.
 
 ### 3.3 Sentry
 
-### 3.2 Karma
+### 3.2 Testing tools
+
+As it's mentioned in the ppt, *intro to javascript*, Karma and Jasmine are test runners based on node.js. Surely it can support the test project of Vue. Assertion libs are also various. 
+
+Test work on vue shall import Vue.js to introduce methods in Vue components and a proper assertion lib. And then, some common  assertion statements can be added to the test. An example of javascript file ``` ./myVue.js ``` and its test project ```/myVue.test.js```.
+
+```javascript
+//  myVue.js
+export default {
+    data () {
+      return {
+        message: 'hello!'
+      }
+    },
+    created () {
+      this.message = 'bye!'
+    }
+}
+```
+
+```javascript
+// myVue.test.js
+import Vue from 'vue'
+import MyComponent from 'myVue.js'
+describe('MyComponent', () => {
+    
+  it('correctly sets the message when created', () => {
+    const vm = new Vue(MyComponent).$mount()
+    expect(vm.message).toBe('bye!')
+  })
+    
+  it('sets the correct default data', () => {
+    const defaultData = MyComponent.data()
+    expect(defaultData.message).toBe('hello!')
+  })
+})
+```
+
+
 
 ## 4. Pros and Cons of Vue
-
-
 
 ## 5. Comparison to raw JS
 
