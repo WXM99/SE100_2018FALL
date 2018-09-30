@@ -1,6 +1,6 @@
 # Notes in Learning VUE
 
-​                                          WEI Xiao-Miao 516015910018
+WEI Xiao-Miao 516015910018
 
 ## 1. Intro of Vue
 
@@ -153,7 +153,9 @@ Morever, except for 'id', the way of bind can also call up data like:
    shown in webpage:
 
    > Learn JavaScript
+   >
    > Learn Vue
+   >
    >
    > Build something awesome
 
