@@ -1,4 +1,4 @@
-# Assignments And Outline For the Courese.
+# Assignments And Outline of the Courese.
 
 ## Week 2. Introduction
 
