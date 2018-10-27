@@ -9,7 +9,7 @@ A native application is a software program that is developed for use on a partic
 - Device: The hardware on which appliations running, provides some basic device-specific functions as  net connection, playing sound, GPS info and etc. 
 - Platform: The OS driving the hardware and provides APIs to apps to manipulate hardwares for achieving its own function. 
 
-### 1.1 The Building of Native App
+### 1.1 Building Native App
 
 native apps are applications **written in basic programming languages** that the platform they are being built for accepts. For example, Swift or Objective-C is used to write native iOS apps, Java is used to write native Android apps, and C# for the most part for Windows Phone apps. 
 
@@ -59,10 +59,27 @@ There are templates and frameworks like Angular, React, and Vue.js that can be u
 
 - **Data security:**
   All user's data shall be stored in the server. The borken of serve can easily cause a leak of private data.
-
 - **Device limitation:**
   Web apps has no much authority to use some widget of devide, such as camera and microphone.
 
+## 3 Hybrid App
 
+Hybrid mobile apps are like any other native apps. They install on the device, can be found in app stores. They also provide functions that almost the same to native apps.
 
+### 3.1 Architecture of Hybrid Apps
+
+Hybrid mobile applications are built in a similar manner as websites. Both use a combination of technologies like HTML, CSS, and JavaScript. However, instead of targeting a mobile browser, hybrid applications target a **WebView hosted inside a native container.** 
+
+Through this native container, the app manipulate the device like a native app and on the otherside, hybrid app exchange data and display it on WebView like a web app does.
+
+![hybrid-app-architecture](./images/hybrid-app-architecture.png)
+
+- The Plugins:
+
+- The Native Container:
+- Remote server:
+
+### 3.2 Features of Hybrid App
+
+### 3.3 Comparison to other two
 
