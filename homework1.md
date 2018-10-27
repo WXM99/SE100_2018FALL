@@ -193,7 +193,7 @@ It's a feature of Vue that when changing the data in the instance, the code has 
 
 The instruction ```v-model``` is able to create a **two-way binding** on ```<input>```, ```<select>``` and ``` <textarea> ``` and anyother reactive HTML elements. 
 
-![bindbin](images/bindBin.png)
+![bindbin](./images/bindBin.png)
 
 
 
@@ -298,4 +298,3 @@ describe('MyComponent', () => {
 - Debugging:
 
   Vue's inner realization is somehow like a black box that helps user do things elegantly and easily. But when bug ocurrs on rending template (no logical errors, Sentry and testing can avoid this kind of bugs), it would be extremely complicated and annoying to find bugs. For all the rending work is taken over by Vue's inner realization.
-
