@@ -11,7 +11,18 @@
 
 ## Week 3. Build Environment 
 
+Build Environment
+
 ## Week 4. Technology of Front-end I
+
+- [ ] A technical report about：
+  - Native App
+  - Web
+  - Hybrid
+
+- [ ] A markdown file.
+- DDL: Oct. 29st 2018. 
+- Submit: address of this repo to sjtuseproj@163.com.
 
 ## Week 5. Technology of Front-end II
 
