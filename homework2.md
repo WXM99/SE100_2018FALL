@@ -75,11 +75,30 @@ Through this native container, the app manipulate the device like a native app a
 ![hybrid-app-architecture](./images/hybrid-app-architecture.png)
 
 - The Plugins:
+  These plugins include APIs for accessing the device’s accelerometer, contacts, camera, and more. There is also a number of plug-ins that are built and maintained by the developer community at-large. 
 
 - The Native Container:
+  The native container act like a browser in web app and loading the app's user interface. Using plugins API to achieve a certain function.
 - Remote server:
+  Transporting and deal with data.
 
-### 3.2 Features of Hybrid App
+### 3.2 Building Hybrid App
 
-### 3.3 Comparison to other two
+The building of a hybrid app greatly relies on development frameworks.
+
+![framesOfHybrid](./images/framesOfHybrid.png)
+
+Like React Native and Ionic. They privde the a native container and APIs to manipulate device. The only thing developer should do is to write the GUI with HTML, JS, CSS and call these apis to achieve a certain function.
+
+### 3.3 Features of Hybrid App
+
+![decisionTree](./images/decisionTree.png)
+
+- Cross-platform
+  Frameworks provide native container for almost all the platform, the developers front-end code could be reused in those containers.
+
+- Device installation
+  The native part of a hybrid app shall be download and installed on a device.
+- Partly fix and update
+  Hybrid app could update slightly without reinstallation, the data it get form server could make a change; It can also updated greatly from the basic framework by installing again.
 
