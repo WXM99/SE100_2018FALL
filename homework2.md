@@ -33,7 +33,7 @@ Apple and Google offer app developers their own development tools, interface ele
 - **Platfom limitation:**
   An native app runs only on the platform that it was build for. Different os require totally diffrent codebase and developing method for native apps. Even native apps for the same platfom shall be modified when transmitted in diffrent device.(iPhone app and iPad app).
 
-  ![platformLimitation](/Users/Miao/Library/Mobile Documents/com~apple~CloudDocs/GitHub/SE100_2018FALL/images/platformLimitation.jpeg)
+  ![platformLimitation](./images/platformLimitation.jpeg)
 
 - **Large cost of develoment:**
   Development for native apps tends to be more complicated, apps for different OS could be different projects. Moreover, the span of the review that App Store takes will also last long. Making the update hysteretic.
